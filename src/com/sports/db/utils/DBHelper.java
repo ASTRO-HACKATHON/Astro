@@ -99,7 +99,7 @@ public class DBHelper {
 
 		Connection c = db.getConnection();
 		String sql = "select * from sports_award where award_id = ? and award_name = ?";
-		List list = executeQuery(sql, new Object[] { 1, "ож╫П" });
+		List list = executeQuery(sql, new Object[] { 1, "Arguna" });
 
 		System.out.println(list);
 	}

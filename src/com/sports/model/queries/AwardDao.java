@@ -40,6 +40,6 @@ public class AwardDao {
 	
 	public static void main(String[] args) {
 		AwardDao dao = new AwardDao(); 
-	    dao.updateAward(3,"一等奖","现金","300元") ;
+	    dao.updateAward(3,"12","123","300") ;
 	}
 }

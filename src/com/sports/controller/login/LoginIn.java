@@ -73,7 +73,7 @@ public class LoginIn extends HttpServlet {
 				}
 			} else {
 				// TODO login losing
-				request.getSession().setAttribute("errorMsg", "error¯");
+				request.getSession().setAttribute("errorMsg", "error");
 				request.getRequestDispatcher("/Login.jsp")
 				.forward(request, response);
 			}
