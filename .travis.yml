@@ -1,0 +1,19 @@
+language: java
+
+jdk:
+  - oraclejdk8
+
+deploy:
+   edge: true
+   sudo: false
+   provider: cloudfoundry
+   username: sarathysrm@gmail.com
+   password: Candyshop5*
+   api: https://api.run.pivotal.io
+   organization: sarathysrm_org
+   space: development
+   app: my-app
+   on:
+   repo: ASTRO-HACKATHON/java
+   skip_cleanup: true
+    
