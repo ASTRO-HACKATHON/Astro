@@ -14,6 +14,6 @@ deploy:
    space: development
    app: astro1
    on:
-   repo: ASTRO-HACKATHON/java
+   repo: ASTRO-HACKATHON/Astro
    skip_cleanup: true
     
