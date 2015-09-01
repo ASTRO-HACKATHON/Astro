@@ -11,6 +11,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+		<div class="header">
+				<strong>Verizon Sports Management System</strong>
+				<span class="right"> <a href="organizations/OrgMain.jsp"> <strong>Return to the menu</strong>
+				</a> </span>
+				<span class="right"> <a href="/sports/Login.jsp"> <strong>Logout</strong>
+				</a> </span>
+				<div class="clr"></div>
+			</div>
 	<%-- <div
 		style="height:320px;background-image:url(<%=basePath%>images/dashboard.png);
 		background-position:center;"

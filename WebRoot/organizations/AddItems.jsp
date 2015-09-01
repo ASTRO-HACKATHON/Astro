@@ -96,7 +96,7 @@
 						<label >
 							Registration deadline:
 						</label>
-						<input type="text" name="stoptime" placeholder="20131111" required />
+						<input type="text" name="stoptime" placeholder="20151111" required />
 					</li>
 					  <li>
 						<label >
@@ -120,7 +120,7 @@
 						<label >
 							Final Time(yyyyMMdd):
 						</label>
-						<input type="text" name="processTime" placeholder="20131212" required />
+						<input type="text" name="processTime" placeholder="20151212" required />
 					</li>
 					<li>
         				<button class="submit" type="submit">Submit</button>
