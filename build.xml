@@ -54,7 +54,7 @@
             <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
         </unzip>
     </target>
-            	<target name="test" depends="build">
+            	<target name="test">
             		 <echo message="test executed..!"/>
             	</target>
     <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
